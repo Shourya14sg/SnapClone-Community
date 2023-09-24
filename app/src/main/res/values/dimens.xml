@@ -3,4 +3,5 @@
  <dimen name="fragment_horizontal_margin">16dp</dimen>
  <dimen name="fragment_vertical_margin">16dp</dimen>
     <dimen name="normal_feild">55dp</dimen>
+    <dimen name="show_permission_padding">20dp</dimen>
 </resources>

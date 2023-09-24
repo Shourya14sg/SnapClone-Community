@@ -19,7 +19,7 @@ public class SplashScreen extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();   //contains all the information connect with the user
         if(mAuth.getCurrentUser()!=null)
         {
-            Toast.makeText(this, "Hello "+mAuth.getCurrentUser().getEmail().toString(), Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "Hello "+mAuth.getCurrentUser().getEmail().toString(), Toast.LENGTH_SHORT).show();
             Intent intent=new Intent(this,MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);    //it clears all above intents
             startActivity(intent);
